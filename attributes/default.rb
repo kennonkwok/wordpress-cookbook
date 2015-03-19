@@ -32,6 +32,7 @@ default['wordpress']['db']['user'] = "wordpressuser"
 default['wordpress']['db']['pass'] = nil
 default['wordpress']['db']['prefix'] = 'wp_'
 default['wordpress']['db']['host'] = 'localhost'
+default['wordpress']['db']['bind_address'] = '127.0.0.1'
 default['wordpress']['db']['port'] = '3306'  # Must be a string
 default['wordpress']['db']['charset'] = 'utf8'
 default['wordpress']['db']['collate'] = ''
